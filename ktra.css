@@ -1,0 +1,243 @@
+.responsive
+{
+  font-size: 20px;
+}
+.header
+{
+  width: 200px;
+  padding-left: 20px;
+}
+.menu{
+  background-color: rgb(66, 95, 3);
+  display: flex;
+  justify-content: space-between;
+  color: white;
+  padding-left: 200px;
+  padding-right: 200px;
+}
+.content
+{
+  display: grid;
+  grid-template-columns: 40% 60%;
+}
+.left{
+  background-color: antiquewhite;
+  border-radius: 10px;
+  padding: 20px 20px 20px 20px;
+  margin: 20px 20px 20px 20px;
+}
+.bottomleft
+{
+  display: grid;
+  grid-template-columns: 35% 65%;
+}
+.bottomleft img
+{
+  width: 80%;
+  height: 80%;
+}
+.right{
+  background-color:rgb(227, 233, 170);
+  border-radius: 10px;
+  padding: 20px 20px 20px 20px;
+  margin: 20px 20px 20px 20px;
+}
+.content_right
+{
+  width: 100%;
+  display: grid;
+  grid-template-columns: 35% 60%;
+}
+.content_right img{
+  width:80%;
+  height:80%;
+}
+.contact
+{
+display: grid;
+grid-template-columns: 50% 40%;
+}
+.contactleft{
+  border: 1px solid greenyellow;
+  background-color: rgb(131, 235, 164);
+  border-radius: 10px;
+  padding: 10px 10px 10px 10px;
+}
+.contactright{
+  padding-left: 20px ;
+}
+.contactright table td{
+  padding-left: 20px;
+}
+.footer{
+  background-color: rgb(177, 190, 73);
+  padding-top: 10px;
+}
+@media screen and (max-width: 750px) {
+.responsive
+{
+  background-color: blanchedalmond;
+  font-size: 10px;
+}
+.menu{
+  background-color: rgb(154, 101, 27);
+  display: flex;
+  font-size: smaller;
+  justify-content: space-around;
+  color: white;
+  padding-left: 50px;
+  padding-right: 50px;
+  font-size: 20px;
+}
+.content
+{
+  display: grid;
+  grid-template-columns: 100%;
+}
+.left{
+  background-color: rgb(215, 235, 250);
+  border-radius: 10px;
+  padding: 20px 20px 20px 20px;
+  margin: 20px 20px 20px 20px;
+  font-size: 10px;
+  
+}
+
+.bottomleft
+{
+  display: grid;
+  grid-template-columns: 35% 65%;
+}
+.bottomleft img
+{
+  width: 80%;
+  height: 80%;
+}
+.right{
+  background-color:rgb(227, 233, 170);
+  border-radius: 10px;
+  padding: 20px 20px 20px 20px;
+  margin: 20px 20px 20px 20px;
+  font-size: 10px;
+}
+.content_right
+{
+  width: 100%;
+  display: grid;
+  grid-template-columns: 35% 60%;
+  font-size: 10px;
+}
+.content_right img{
+  width: 90%;
+  height: 66%;
+}
+.contact
+{
+display: grid;
+grid-template-columns: 50% 40%;
+
+}
+.contactleft{
+  border: 1px solid rgb(47, 102, 255);
+  background-color: rgb(131, 228, 235);
+  border-radius: 10px;
+  padding: 10px 10px 10px 10px;
+}
+.contactleft i {
+  padding-top: 10px;
+
+};
+.contactright{
+  padding-left:0 ;
+}
+.contactright table td{
+  padding-left: 20px;
+  font-size: 10px;
+}
+.footer{
+  background-color: rgb(73, 137, 190);
+  padding-top: 10px;
+  font-size: 10px;
+}
+}
+@media screen and (min-width: 1300px) {
+  .responsive
+  {
+    background-color: rgb(205, 255, 248);
+    
+  }
+  .menu{
+    background-color: rgb(118, 154, 27);
+    display: flex;
+    font-size: 30px;
+    justify-content: space-around;
+    color: white;
+    padding-left: 250px;
+    padding-right: 250px;
+  }
+  .content
+  {
+    display: grid;
+    grid-template-columns: 40% 60%;
+    
+  }
+  .left{
+    background-color: rgb(249, 250, 215);
+    border-radius: 10px;
+    padding: 20px 20px 20px 20px;
+    margin: 20px 20px 20px 20px;
+    font-size: 30px;
+  }
+  .bottomleft img
+  {
+    width: 90%;
+    height: 90%;
+  }
+  .right{
+    background-color:rgb(227, 233, 170);
+    border-radius: 10px;
+    padding: 20px 20px 20px 20px;
+    margin: 20px 20px 20px 20px;
+    font-size: 30px;
+  }
+  .content_right
+  {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 35% 60%;
+    font-size: 30px;
+  }
+  .content_right img{
+    width: 90%;
+    height: 66%;
+  }
+  .contact
+  {
+  display: grid;
+  grid-template-columns: 50% 40%;
+  font-size: 30px;
+  }
+  .contactleft{
+    border: 1px solid rgb(47, 102, 255);
+    background-color: rgb(131, 228, 235);
+    border-radius: 10px;
+    padding: 10px 10px 10px 10px;
+  }
+  .contactleft i {
+    padding-top: 10px;
+  
+  };
+  .contactright{
+    padding-left:0 ;
+  }
+  .contactright table td{
+    padding-left: 20px;
+    font-size: 30px;
+  }
+  .footer{
+    background-color: rgb(73, 137, 190);
+    padding-top: 10px;
+    font-size: 30px;
+  }
+  }
+
